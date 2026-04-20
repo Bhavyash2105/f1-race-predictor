@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+    <title>F1 Race Predictor</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("/static/bgs.jpg");
+            background-size: cover;        /* makes it fill screen */
+            background-position: center;   /* centers image */
+            background-repeat: no-repeat;  /* prevents tiling */
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .emilys-candy-regular {
+            font-family: "Emilys Candy", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1 { color: whitesmoke; font-size: 50px; margin-bottom: 8px; font-family: "Emilys Candy", serif; }
+        p.subtitle { color: #aaa; margin-bottom: 30px; }
+        .card {
+            background: #ff98d4;
+            border-radius: 12px;
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 20px;
+        }
+        label { display: block; margin-bottom: 6px; font-size: 14px; color: #000000; }
+        select, input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            background: #567ca9;
+            color: white;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #f14ba9;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover { background: #ff1a00; }
+        .result {
+            background: #16213e;
+            border-radius: 12px;
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            border: 2px solid #e10600;
+        }
+        .result h2 { color: #aaa; font-size: 16px; margin-bottom: 10px; }
+        .position {
+            font-size: 75px;
+            color: #aef483;
+            line-height: 1;
+            font-family: 'Bitcount Grid Double';
+        }
+        .position-label { font-size: 18px; color: #aaa; margin-top: 8px; }
+        .error { color: #ff6b6b; text-align: center; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🏎️ F1 Race Predictor</h1>
+    <p class="subtitle">Predict a driver's finishing position based on grid position</p>
+
+    <div class="card">
+        <form method="POST">
+            <label>Driver</label>
+            <select name="driver">
+                {% for d in drivers %}
+                <option value="{{ d }}" {% if d == selected_driver %}selected{% endif %}>{{ d }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Team</label>
+            <select name="team">
+                {% for t in teams %}
+                <option value="{{ t }}" {% if t == selected_team %}selected{% endif %}>{{ t }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Grid Position (1–20)</label>
+            <input type="number" name="grid" min="1" max="20"
+                   value="{{ selected_grid or 1 }}">
+
+            <button type="submit">Predict Finishing Position</button>
+        </form>
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+
+    {% if prediction %}
+    <div class="result">
+        <h2>Predicted Finishing Position</h2>
+        <div class="position">P{{ prediction }}</div>
+        <div class="position-label">{{ selected_driver }} starting from P{{ selected_grid }}</div>
+    </div>
+    {% endif %}
+</body>
+</html>

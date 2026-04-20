@@ -1,0 +1,821 @@
+Abbreviation,TeamName,GridPosition,Position,Points,Year,Race
+HAM,Mercedes,2.0,1.0,25.0,2021,Bahrain Grand Prix
+VER,Red Bull Racing,1.0,2.0,18.0,2021,Bahrain Grand Prix
+BOT,Mercedes,3.0,3.0,16.0,2021,Bahrain Grand Prix
+NOR,McLaren,7.0,4.0,12.0,2021,Bahrain Grand Prix
+PER,Red Bull Racing,0.0,5.0,10.0,2021,Bahrain Grand Prix
+LEC,Ferrari,4.0,6.0,8.0,2021,Bahrain Grand Prix
+RIC,McLaren,6.0,7.0,6.0,2021,Bahrain Grand Prix
+SAI,Ferrari,8.0,8.0,4.0,2021,Bahrain Grand Prix
+TSU,AlphaTauri,13.0,9.0,2.0,2021,Bahrain Grand Prix
+STR,Aston Martin,10.0,10.0,1.0,2021,Bahrain Grand Prix
+RAI,Alfa Romeo Racing,14.0,11.0,0.0,2021,Bahrain Grand Prix
+GIO,Alfa Romeo Racing,12.0,12.0,0.0,2021,Bahrain Grand Prix
+OCO,Alpine,16.0,13.0,0.0,2021,Bahrain Grand Prix
+RUS,Williams,15.0,14.0,0.0,2021,Bahrain Grand Prix
+VET,Aston Martin,20.0,15.0,0.0,2021,Bahrain Grand Prix
+MSC,Haas F1 Team,18.0,16.0,0.0,2021,Bahrain Grand Prix
+GAS,AlphaTauri,5.0,17.0,0.0,2021,Bahrain Grand Prix
+LAT,Williams,17.0,18.0,0.0,2021,Bahrain Grand Prix
+ALO,Alpine,9.0,19.0,0.0,2021,Bahrain Grand Prix
+MAZ,Haas F1 Team,19.0,20.0,0.0,2021,Bahrain Grand Prix
+VER,Red Bull Racing,3.0,1.0,25.0,2021,Emilia Romagna Grand Prix
+HAM,Mercedes,1.0,2.0,19.0,2021,Emilia Romagna Grand Prix
+NOR,McLaren,7.0,3.0,15.0,2021,Emilia Romagna Grand Prix
+LEC,Ferrari,4.0,4.0,12.0,2021,Emilia Romagna Grand Prix
+SAI,Ferrari,11.0,5.0,10.0,2021,Emilia Romagna Grand Prix
+RIC,McLaren,6.0,6.0,8.0,2021,Emilia Romagna Grand Prix
+GAS,AlphaTauri,5.0,7.0,6.0,2021,Emilia Romagna Grand Prix
+STR,Aston Martin,10.0,8.0,4.0,2021,Emilia Romagna Grand Prix
+OCO,Alpine,9.0,9.0,2.0,2021,Emilia Romagna Grand Prix
+ALO,Alpine,15.0,10.0,1.0,2021,Emilia Romagna Grand Prix
+PER,Red Bull Racing,2.0,11.0,0.0,2021,Emilia Romagna Grand Prix
+TSU,AlphaTauri,20.0,12.0,0.0,2021,Emilia Romagna Grand Prix
+RAI,Alfa Romeo Racing,16.0,13.0,0.0,2021,Emilia Romagna Grand Prix
+GIO,Alfa Romeo Racing,17.0,14.0,0.0,2021,Emilia Romagna Grand Prix
+VET,Aston Martin,0.0,15.0,0.0,2021,Emilia Romagna Grand Prix
+MSC,Haas F1 Team,18.0,16.0,0.0,2021,Emilia Romagna Grand Prix
+MAZ,Haas F1 Team,19.0,17.0,0.0,2021,Emilia Romagna Grand Prix
+BOT,Mercedes,8.0,18.0,0.0,2021,Emilia Romagna Grand Prix
+RUS,Williams,12.0,19.0,0.0,2021,Emilia Romagna Grand Prix
+LAT,Williams,14.0,20.0,0.0,2021,Emilia Romagna Grand Prix
+HAM,Mercedes,2.0,1.0,25.0,2021,Portuguese Grand Prix
+VER,Red Bull Racing,3.0,2.0,18.0,2021,Portuguese Grand Prix
+BOT,Mercedes,1.0,3.0,16.0,2021,Portuguese Grand Prix
+PER,Red Bull Racing,4.0,4.0,12.0,2021,Portuguese Grand Prix
+NOR,McLaren,7.0,5.0,10.0,2021,Portuguese Grand Prix
+LEC,Ferrari,8.0,6.0,8.0,2021,Portuguese Grand Prix
+OCO,Alpine,6.0,7.0,6.0,2021,Portuguese Grand Prix
+ALO,Alpine,13.0,8.0,4.0,2021,Portuguese Grand Prix
+RIC,McLaren,16.0,9.0,2.0,2021,Portuguese Grand Prix
+GAS,AlphaTauri,9.0,10.0,1.0,2021,Portuguese Grand Prix
+SAI,Ferrari,5.0,11.0,0.0,2021,Portuguese Grand Prix
+GIO,Alfa Romeo Racing,12.0,12.0,0.0,2021,Portuguese Grand Prix
+VET,Aston Martin,10.0,13.0,0.0,2021,Portuguese Grand Prix
+STR,Aston Martin,17.0,14.0,0.0,2021,Portuguese Grand Prix
+TSU,AlphaTauri,14.0,15.0,0.0,2021,Portuguese Grand Prix
+RUS,Williams,11.0,16.0,0.0,2021,Portuguese Grand Prix
+MSC,Haas F1 Team,19.0,17.0,0.0,2021,Portuguese Grand Prix
+LAT,Williams,18.0,18.0,0.0,2021,Portuguese Grand Prix
+MAZ,Haas F1 Team,20.0,19.0,0.0,2021,Portuguese Grand Prix
+RAI,Alfa Romeo Racing,15.0,20.0,0.0,2021,Portuguese Grand Prix
+HAM,Mercedes,1.0,1.0,25.0,2021,Spanish Grand Prix
+VER,Red Bull Racing,2.0,2.0,19.0,2021,Spanish Grand Prix
+BOT,Mercedes,3.0,3.0,15.0,2021,Spanish Grand Prix
+LEC,Ferrari,4.0,4.0,12.0,2021,Spanish Grand Prix
+PER,Red Bull Racing,8.0,5.0,10.0,2021,Spanish Grand Prix
+RIC,McLaren,7.0,6.0,8.0,2021,Spanish Grand Prix
+SAI,Ferrari,6.0,7.0,6.0,2021,Spanish Grand Prix
+NOR,McLaren,9.0,8.0,4.0,2021,Spanish Grand Prix
+OCO,Alpine,5.0,9.0,2.0,2021,Spanish Grand Prix
+GAS,AlphaTauri,12.0,10.0,1.0,2021,Spanish Grand Prix
+STR,Aston Martin,11.0,11.0,0.0,2021,Spanish Grand Prix
+RAI,Alfa Romeo Racing,17.0,12.0,0.0,2021,Spanish Grand Prix
+VET,Aston Martin,13.0,13.0,0.0,2021,Spanish Grand Prix
+RUS,Williams,15.0,14.0,0.0,2021,Spanish Grand Prix
+GIO,Alfa Romeo Racing,14.0,15.0,0.0,2021,Spanish Grand Prix
+LAT,Williams,19.0,16.0,0.0,2021,Spanish Grand Prix
+ALO,Alpine,10.0,17.0,0.0,2021,Spanish Grand Prix
+MSC,Haas F1 Team,18.0,18.0,0.0,2021,Spanish Grand Prix
+MAZ,Haas F1 Team,20.0,19.0,0.0,2021,Spanish Grand Prix
+TSU,AlphaTauri,16.0,20.0,0.0,2021,Spanish Grand Prix
+VER,Red Bull Racing,2.0,1.0,25.0,2021,Monaco Grand Prix
+SAI,Ferrari,4.0,2.0,18.0,2021,Monaco Grand Prix
+NOR,McLaren,5.0,3.0,15.0,2021,Monaco Grand Prix
+PER,Red Bull Racing,9.0,4.0,12.0,2021,Monaco Grand Prix
+VET,Aston Martin,8.0,5.0,10.0,2021,Monaco Grand Prix
+GAS,AlphaTauri,6.0,6.0,8.0,2021,Monaco Grand Prix
+HAM,Mercedes,7.0,7.0,7.0,2021,Monaco Grand Prix
+STR,Aston Martin,13.0,8.0,4.0,2021,Monaco Grand Prix
+OCO,Alpine,11.0,9.0,2.0,2021,Monaco Grand Prix
+GIO,Alfa Romeo Racing,10.0,10.0,1.0,2021,Monaco Grand Prix
+RAI,Alfa Romeo Racing,14.0,11.0,0.0,2021,Monaco Grand Prix
+RIC,McLaren,12.0,12.0,0.0,2021,Monaco Grand Prix
+ALO,Alpine,17.0,13.0,0.0,2021,Monaco Grand Prix
+RUS,Williams,15.0,14.0,0.0,2021,Monaco Grand Prix
+LAT,Williams,18.0,15.0,0.0,2021,Monaco Grand Prix
+TSU,AlphaTauri,16.0,16.0,0.0,2021,Monaco Grand Prix
+MAZ,Haas F1 Team,19.0,17.0,0.0,2021,Monaco Grand Prix
+MSC,Haas F1 Team,20.0,18.0,0.0,2021,Monaco Grand Prix
+BOT,Mercedes,3.0,19.0,0.0,2021,Monaco Grand Prix
+LEC,Ferrari,1.0,20.0,0.0,2021,Monaco Grand Prix
+PER,Red Bull Racing,6.0,1.0,25.0,2021,Azerbaijan Grand Prix
+VET,Aston Martin,11.0,2.0,18.0,2021,Azerbaijan Grand Prix
+GAS,AlphaTauri,4.0,3.0,15.0,2021,Azerbaijan Grand Prix
+LEC,Ferrari,1.0,4.0,12.0,2021,Azerbaijan Grand Prix
+NOR,McLaren,9.0,5.0,10.0,2021,Azerbaijan Grand Prix
+ALO,Alpine,8.0,6.0,8.0,2021,Azerbaijan Grand Prix
+TSU,AlphaTauri,7.0,7.0,6.0,2021,Azerbaijan Grand Prix
+SAI,Ferrari,5.0,8.0,4.0,2021,Azerbaijan Grand Prix
+RIC,McLaren,13.0,9.0,2.0,2021,Azerbaijan Grand Prix
+RAI,Alfa Romeo Racing,14.0,10.0,1.0,2021,Azerbaijan Grand Prix
+GIO,Alfa Romeo Racing,20.0,11.0,0.0,2021,Azerbaijan Grand Prix
+BOT,Mercedes,10.0,12.0,0.0,2021,Azerbaijan Grand Prix
+MSC,Haas F1 Team,17.0,13.0,0.0,2021,Azerbaijan Grand Prix
+MAZ,Haas F1 Team,18.0,14.0,0.0,2021,Azerbaijan Grand Prix
+HAM,Mercedes,2.0,15.0,0.0,2021,Azerbaijan Grand Prix
+LAT,Williams,16.0,16.0,0.0,2021,Azerbaijan Grand Prix
+RUS,Williams,15.0,17.0,0.0,2021,Azerbaijan Grand Prix
+VER,Red Bull Racing,3.0,18.0,0.0,2021,Azerbaijan Grand Prix
+STR,Aston Martin,19.0,19.0,0.0,2021,Azerbaijan Grand Prix
+OCO,Alpine,12.0,20.0,0.0,2021,Azerbaijan Grand Prix
+VER,Red Bull Racing,1.0,1.0,26.0,2021,French Grand Prix
+HAM,Mercedes,2.0,2.0,18.0,2021,French Grand Prix
+PER,Red Bull Racing,4.0,3.0,15.0,2021,French Grand Prix
+BOT,Mercedes,3.0,4.0,12.0,2021,French Grand Prix
+NOR,McLaren,8.0,5.0,10.0,2021,French Grand Prix
+RIC,McLaren,10.0,6.0,8.0,2021,French Grand Prix
+GAS,AlphaTauri,6.0,7.0,6.0,2021,French Grand Prix
+ALO,Alpine,9.0,8.0,4.0,2021,French Grand Prix
+VET,Aston Martin,12.0,9.0,2.0,2021,French Grand Prix
+STR,Aston Martin,19.0,10.0,1.0,2021,French Grand Prix
+SAI,Ferrari,5.0,11.0,0.0,2021,French Grand Prix
+RUS,Williams,14.0,12.0,0.0,2021,French Grand Prix
+TSU,AlphaTauri,0.0,13.0,0.0,2021,French Grand Prix
+OCO,Alpine,11.0,14.0,0.0,2021,French Grand Prix
+GIO,Alfa Romeo Racing,13.0,15.0,0.0,2021,French Grand Prix
+LEC,Ferrari,7.0,16.0,0.0,2021,French Grand Prix
+RAI,Alfa Romeo Racing,17.0,17.0,0.0,2021,French Grand Prix
+LAT,Williams,16.0,18.0,0.0,2021,French Grand Prix
+MSC,Haas F1 Team,15.0,19.0,0.0,2021,French Grand Prix
+MAZ,Haas F1 Team,18.0,20.0,0.0,2021,French Grand Prix
+VER,Red Bull Racing,1.0,1.0,25.0,2021,Styrian Grand Prix
+HAM,Mercedes,2.0,2.0,19.0,2021,Styrian Grand Prix
+BOT,Mercedes,5.0,3.0,15.0,2021,Styrian Grand Prix
+PER,Red Bull Racing,4.0,4.0,12.0,2021,Styrian Grand Prix
+NOR,McLaren,3.0,5.0,10.0,2021,Styrian Grand Prix
+SAI,Ferrari,12.0,6.0,8.0,2021,Styrian Grand Prix
+LEC,Ferrari,7.0,7.0,6.0,2021,Styrian Grand Prix
+STR,Aston Martin,9.0,8.0,4.0,2021,Styrian Grand Prix
+ALO,Alpine,8.0,9.0,2.0,2021,Styrian Grand Prix
+TSU,AlphaTauri,11.0,10.0,1.0,2021,Styrian Grand Prix
+RAI,Alfa Romeo Racing,18.0,11.0,0.0,2021,Styrian Grand Prix
+VET,Aston Martin,14.0,12.0,0.0,2021,Styrian Grand Prix
+RIC,McLaren,13.0,13.0,0.0,2021,Styrian Grand Prix
+OCO,Alpine,17.0,14.0,0.0,2021,Styrian Grand Prix
+GIO,Alfa Romeo Racing,15.0,15.0,0.0,2021,Styrian Grand Prix
+MSC,Haas F1 Team,19.0,16.0,0.0,2021,Styrian Grand Prix
+LAT,Williams,16.0,17.0,0.0,2021,Styrian Grand Prix
+MAZ,Haas F1 Team,20.0,18.0,0.0,2021,Styrian Grand Prix
+RUS,Williams,10.0,19.0,0.0,2021,Styrian Grand Prix
+GAS,AlphaTauri,6.0,20.0,0.0,2021,Styrian Grand Prix
+VER,Red Bull Racing,1.0,1.0,26.0,2021,Austrian Grand Prix
+BOT,Mercedes,5.0,2.0,18.0,2021,Austrian Grand Prix
+NOR,McLaren,2.0,3.0,15.0,2021,Austrian Grand Prix
+HAM,Mercedes,4.0,4.0,12.0,2021,Austrian Grand Prix
+SAI,Ferrari,10.0,5.0,10.0,2021,Austrian Grand Prix
+PER,Red Bull Racing,3.0,6.0,8.0,2021,Austrian Grand Prix
+RIC,McLaren,13.0,7.0,6.0,2021,Austrian Grand Prix
+LEC,Ferrari,12.0,8.0,4.0,2021,Austrian Grand Prix
+GAS,AlphaTauri,6.0,9.0,2.0,2021,Austrian Grand Prix
+ALO,Alpine,14.0,10.0,1.0,2021,Austrian Grand Prix
+RUS,Williams,8.0,11.0,0.0,2021,Austrian Grand Prix
+TSU,AlphaTauri,7.0,12.0,0.0,2021,Austrian Grand Prix
+STR,Aston Martin,9.0,13.0,0.0,2021,Austrian Grand Prix
+GIO,Alfa Romeo Racing,15.0,14.0,0.0,2021,Austrian Grand Prix
+RAI,Alfa Romeo Racing,16.0,15.0,0.0,2021,Austrian Grand Prix
+LAT,Williams,18.0,16.0,0.0,2021,Austrian Grand Prix
+VET,Aston Martin,11.0,17.0,0.0,2021,Austrian Grand Prix
+MSC,Haas F1 Team,19.0,18.0,0.0,2021,Austrian Grand Prix
+MAZ,Haas F1 Team,20.0,19.0,0.0,2021,Austrian Grand Prix
+OCO,Alpine,17.0,20.0,0.0,2021,Austrian Grand Prix
+HAM,Mercedes,2.0,1.0,25.0,2021,British Grand Prix
+LEC,Ferrari,4.0,2.0,18.0,2021,British Grand Prix
+BOT,Mercedes,3.0,3.0,15.0,2021,British Grand Prix
+NOR,McLaren,5.0,4.0,12.0,2021,British Grand Prix
+RIC,McLaren,6.0,5.0,10.0,2021,British Grand Prix
+SAI,Ferrari,10.0,6.0,8.0,2021,British Grand Prix
+ALO,Alpine,7.0,7.0,6.0,2021,British Grand Prix
+STR,Aston Martin,14.0,8.0,4.0,2021,British Grand Prix
+OCO,Alpine,9.0,9.0,2.0,2021,British Grand Prix
+TSU,AlphaTauri,16.0,10.0,1.0,2021,British Grand Prix
+GAS,AlphaTauri,11.0,11.0,0.0,2021,British Grand Prix
+RUS,Williams,12.0,12.0,0.0,2021,British Grand Prix
+GIO,Alfa Romeo Racing,15.0,13.0,0.0,2021,British Grand Prix
+LAT,Williams,17.0,14.0,0.0,2021,British Grand Prix
+RAI,Alfa Romeo Racing,13.0,15.0,0.0,2021,British Grand Prix
+PER,Red Bull Racing,0.0,16.0,0.0,2021,British Grand Prix
+MAZ,Haas F1 Team,19.0,17.0,0.0,2021,British Grand Prix
+MSC,Haas F1 Team,18.0,18.0,0.0,2021,British Grand Prix
+VET,Aston Martin,8.0,19.0,0.0,2021,British Grand Prix
+VER,Red Bull Racing,1.0,20.0,0.0,2021,British Grand Prix
+OCO,Alpine,8.0,1.0,25.0,2021,Hungarian Grand Prix
+HAM,Mercedes,1.0,2.0,18.0,2021,Hungarian Grand Prix
+SAI,Ferrari,15.0,3.0,15.0,2021,Hungarian Grand Prix
+ALO,Alpine,9.0,4.0,12.0,2021,Hungarian Grand Prix
+GAS,AlphaTauri,5.0,5.0,11.0,2021,Hungarian Grand Prix
+TSU,AlphaTauri,16.0,6.0,8.0,2021,Hungarian Grand Prix
+LAT,Williams,18.0,7.0,6.0,2021,Hungarian Grand Prix
+RUS,Williams,17.0,8.0,4.0,2021,Hungarian Grand Prix
+VER,Red Bull Racing,3.0,9.0,2.0,2021,Hungarian Grand Prix
+RAI,Alfa Romeo Racing,13.0,10.0,1.0,2021,Hungarian Grand Prix
+RIC,McLaren,11.0,11.0,0.0,2021,Hungarian Grand Prix
+MSC,Haas F1 Team,20.0,12.0,0.0,2021,Hungarian Grand Prix
+GIO,Alfa Romeo Racing,0.0,13.0,0.0,2021,Hungarian Grand Prix
+MAZ,Haas F1 Team,19.0,14.0,0.0,2021,Hungarian Grand Prix
+NOR,McLaren,6.0,15.0,0.0,2021,Hungarian Grand Prix
+BOT,Mercedes,2.0,16.0,0.0,2021,Hungarian Grand Prix
+PER,Red Bull Racing,4.0,17.0,0.0,2021,Hungarian Grand Prix
+LEC,Ferrari,7.0,18.0,0.0,2021,Hungarian Grand Prix
+STR,Aston Martin,12.0,19.0,0.0,2021,Hungarian Grand Prix
+VET,Aston Martin,10.0,20.0,0.0,2021,Hungarian Grand Prix
+VER,Red Bull Racing,1.0,1.0,12.5,2021,Belgian Grand Prix
+RUS,Williams,2.0,2.0,9.0,2021,Belgian Grand Prix
+HAM,Mercedes,3.0,3.0,7.5,2021,Belgian Grand Prix
+RIC,McLaren,4.0,4.0,6.0,2021,Belgian Grand Prix
+VET,Aston Martin,5.0,5.0,5.0,2021,Belgian Grand Prix
+GAS,AlphaTauri,6.0,6.0,4.0,2021,Belgian Grand Prix
+OCO,Alpine,8.0,7.0,3.0,2021,Belgian Grand Prix
+LEC,Ferrari,9.0,8.0,2.0,2021,Belgian Grand Prix
+LAT,Williams,10.0,9.0,1.0,2021,Belgian Grand Prix
+SAI,Ferrari,11.0,10.0,0.5,2021,Belgian Grand Prix
+ALO,Alpine,12.0,11.0,0.0,2021,Belgian Grand Prix
+BOT,Mercedes,13.0,12.0,0.0,2021,Belgian Grand Prix
+GIO,Alfa Romeo Racing,14.0,13.0,0.0,2021,Belgian Grand Prix
+NOR,McLaren,15.0,14.0,0.0,2021,Belgian Grand Prix
+TSU,AlphaTauri,16.0,15.0,0.0,2021,Belgian Grand Prix
+MSC,Haas F1 Team,17.0,16.0,0.0,2021,Belgian Grand Prix
+MAZ,Haas F1 Team,18.0,17.0,0.0,2021,Belgian Grand Prix
+RAI,Alfa Romeo Racing,0.0,18.0,0.0,2021,Belgian Grand Prix
+PER,Red Bull Racing,0.0,19.0,0.0,2021,Belgian Grand Prix
+STR,Aston Martin,19.0,20.0,0.0,2021,Belgian Grand Prix
+VER,Red Bull Racing,1.0,1.0,25.0,2021,Dutch Grand Prix
+HAM,Mercedes,2.0,2.0,19.0,2021,Dutch Grand Prix
+BOT,Mercedes,3.0,3.0,15.0,2021,Dutch Grand Prix
+GAS,AlphaTauri,4.0,4.0,12.0,2021,Dutch Grand Prix
+LEC,Ferrari,5.0,5.0,10.0,2021,Dutch Grand Prix
+ALO,Alpine,9.0,6.0,8.0,2021,Dutch Grand Prix
+SAI,Ferrari,6.0,7.0,6.0,2021,Dutch Grand Prix
+PER,Red Bull Racing,0.0,8.0,4.0,2021,Dutch Grand Prix
+OCO,Alpine,8.0,9.0,2.0,2021,Dutch Grand Prix
+NOR,McLaren,13.0,10.0,1.0,2021,Dutch Grand Prix
+RIC,McLaren,10.0,11.0,0.0,2021,Dutch Grand Prix
+STR,Aston Martin,12.0,12.0,0.0,2021,Dutch Grand Prix
+VET,Aston Martin,15.0,13.0,0.0,2021,Dutch Grand Prix
+GIO,Alfa Romeo Racing,7.0,14.0,0.0,2021,Dutch Grand Prix
+KUB,Alfa Romeo Racing,16.0,15.0,0.0,2021,Dutch Grand Prix
+LAT,Williams,0.0,16.0,0.0,2021,Dutch Grand Prix
+RUS,Williams,11.0,17.0,0.0,2021,Dutch Grand Prix
+MSC,Haas F1 Team,17.0,18.0,0.0,2021,Dutch Grand Prix
+TSU,AlphaTauri,14.0,19.0,0.0,2021,Dutch Grand Prix
+MAZ,Haas F1 Team,18.0,20.0,0.0,2021,Dutch Grand Prix
+RIC,McLaren,2.0,1.0,26.0,2021,Italian Grand Prix
+NOR,McLaren,3.0,2.0,18.0,2021,Italian Grand Prix
+BOT,Mercedes,19.0,3.0,15.0,2021,Italian Grand Prix
+LEC,Ferrari,5.0,4.0,12.0,2021,Italian Grand Prix
+PER,Red Bull Racing,8.0,5.0,10.0,2021,Italian Grand Prix
+SAI,Ferrari,6.0,6.0,8.0,2021,Italian Grand Prix
+STR,Aston Martin,9.0,7.0,6.0,2021,Italian Grand Prix
+ALO,Alpine,10.0,8.0,4.0,2021,Italian Grand Prix
+RUS,Williams,14.0,9.0,2.0,2021,Italian Grand Prix
+OCO,Alpine,12.0,10.0,1.0,2021,Italian Grand Prix
+LAT,Williams,13.0,11.0,0.0,2021,Italian Grand Prix
+VET,Aston Martin,11.0,12.0,0.0,2021,Italian Grand Prix
+GIO,Alfa Romeo Racing,7.0,13.0,0.0,2021,Italian Grand Prix
+KUB,Alfa Romeo Racing,17.0,14.0,0.0,2021,Italian Grand Prix
+MSC,Haas F1 Team,18.0,15.0,0.0,2021,Italian Grand Prix
+MAZ,Haas F1 Team,16.0,16.0,0.0,2021,Italian Grand Prix
+HAM,Mercedes,4.0,17.0,0.0,2021,Italian Grand Prix
+VER,Red Bull Racing,1.0,18.0,0.0,2021,Italian Grand Prix
+GAS,AlphaTauri,0.0,19.0,0.0,2021,Italian Grand Prix
+TSU,AlphaTauri,0.0,20.0,0.0,2021,Italian Grand Prix
+HAM,Mercedes,4.0,1.0,25.0,2021,Russian Grand Prix
+VER,Red Bull Racing,20.0,2.0,18.0,2021,Russian Grand Prix
+SAI,Ferrari,2.0,3.0,15.0,2021,Russian Grand Prix
+RIC,McLaren,5.0,4.0,12.0,2021,Russian Grand Prix
+BOT,Mercedes,16.0,5.0,10.0,2021,Russian Grand Prix
+ALO,Alpine,6.0,6.0,8.0,2021,Russian Grand Prix
+NOR,McLaren,1.0,7.0,7.0,2021,Russian Grand Prix
+RAI,Alfa Romeo Racing,13.0,8.0,4.0,2021,Russian Grand Prix
+PER,Red Bull Racing,8.0,9.0,2.0,2021,Russian Grand Prix
+RUS,Williams,3.0,10.0,1.0,2021,Russian Grand Prix
+STR,Aston Martin,7.0,11.0,0.0,2021,Russian Grand Prix
+VET,Aston Martin,10.0,12.0,0.0,2021,Russian Grand Prix
+GAS,AlphaTauri,11.0,13.0,0.0,2021,Russian Grand Prix
+OCO,Alpine,9.0,14.0,0.0,2021,Russian Grand Prix
+LEC,Ferrari,19.0,15.0,0.0,2021,Russian Grand Prix
+GIO,Alfa Romeo Racing,17.0,16.0,0.0,2021,Russian Grand Prix
+TSU,AlphaTauri,12.0,17.0,0.0,2021,Russian Grand Prix
+MAZ,Haas F1 Team,15.0,18.0,0.0,2021,Russian Grand Prix
+LAT,Williams,18.0,19.0,0.0,2021,Russian Grand Prix
+MSC,Haas F1 Team,14.0,20.0,0.0,2021,Russian Grand Prix
+BOT,Mercedes,1.0,1.0,26.0,2021,Turkish Grand Prix
+VER,Red Bull Racing,2.0,2.0,18.0,2021,Turkish Grand Prix
+PER,Red Bull Racing,6.0,3.0,15.0,2021,Turkish Grand Prix
+LEC,Ferrari,3.0,4.0,12.0,2021,Turkish Grand Prix
+HAM,Mercedes,11.0,5.0,10.0,2021,Turkish Grand Prix
+GAS,AlphaTauri,4.0,6.0,8.0,2021,Turkish Grand Prix
+NOR,McLaren,7.0,7.0,6.0,2021,Turkish Grand Prix
+SAI,Ferrari,19.0,8.0,4.0,2021,Turkish Grand Prix
+STR,Aston Martin,8.0,9.0,2.0,2021,Turkish Grand Prix
+OCO,Alpine,12.0,10.0,1.0,2021,Turkish Grand Prix
+GIO,Alfa Romeo Racing,16.0,11.0,0.0,2021,Turkish Grand Prix
+RAI,Alfa Romeo Racing,17.0,12.0,0.0,2021,Turkish Grand Prix
+RIC,McLaren,20.0,13.0,0.0,2021,Turkish Grand Prix
+TSU,AlphaTauri,9.0,14.0,0.0,2021,Turkish Grand Prix
+RUS,Williams,13.0,15.0,0.0,2021,Turkish Grand Prix
+ALO,Alpine,5.0,16.0,0.0,2021,Turkish Grand Prix
+LAT,Williams,15.0,17.0,0.0,2021,Turkish Grand Prix
+VET,Aston Martin,10.0,18.0,0.0,2021,Turkish Grand Prix
+MSC,Haas F1 Team,14.0,19.0,0.0,2021,Turkish Grand Prix
+MAZ,Haas F1 Team,18.0,20.0,0.0,2021,Turkish Grand Prix
+VER,Red Bull Racing,1.0,1.0,25.0,2021,United States Grand Prix
+HAM,Mercedes,2.0,2.0,19.0,2021,United States Grand Prix
+PER,Red Bull Racing,3.0,3.0,15.0,2021,United States Grand Prix
+LEC,Ferrari,4.0,4.0,12.0,2021,United States Grand Prix
+RIC,McLaren,6.0,5.0,10.0,2021,United States Grand Prix
+BOT,Mercedes,9.0,6.0,8.0,2021,United States Grand Prix
+SAI,Ferrari,5.0,7.0,6.0,2021,United States Grand Prix
+NOR,McLaren,7.0,8.0,4.0,2021,United States Grand Prix
+TSU,AlphaTauri,10.0,9.0,2.0,2021,United States Grand Prix
+VET,Aston Martin,18.0,10.0,1.0,2021,United States Grand Prix
+GIO,Alfa Romeo Racing,12.0,11.0,0.0,2021,United States Grand Prix
+STR,Aston Martin,13.0,12.0,0.0,2021,United States Grand Prix
+RAI,Alfa Romeo Racing,15.0,13.0,0.0,2021,United States Grand Prix
+RUS,Williams,20.0,14.0,0.0,2021,United States Grand Prix
+LAT,Williams,14.0,15.0,0.0,2021,United States Grand Prix
+MSC,Haas F1 Team,16.0,16.0,0.0,2021,United States Grand Prix
+MAZ,Haas F1 Team,17.0,17.0,0.0,2021,United States Grand Prix
+ALO,Alpine,19.0,18.0,0.0,2021,United States Grand Prix
+OCO,Alpine,11.0,19.0,0.0,2021,United States Grand Prix
+GAS,AlphaTauri,8.0,20.0,0.0,2021,United States Grand Prix
+VER,Red Bull Racing,3.0,1.0,25.0,2021,Mexico City Grand Prix
+HAM,Mercedes,2.0,2.0,18.0,2021,Mexico City Grand Prix
+PER,Red Bull Racing,4.0,3.0,15.0,2021,Mexico City Grand Prix
+GAS,AlphaTauri,5.0,4.0,12.0,2021,Mexico City Grand Prix
+LEC,Ferrari,8.0,5.0,10.0,2021,Mexico City Grand Prix
+SAI,Ferrari,6.0,6.0,8.0,2021,Mexico City Grand Prix
+VET,Aston Martin,9.0,7.0,6.0,2021,Mexico City Grand Prix
+RAI,Alfa Romeo Racing,10.0,8.0,4.0,2021,Mexico City Grand Prix
+ALO,Alpine,12.0,9.0,2.0,2021,Mexico City Grand Prix
+NOR,McLaren,18.0,10.0,1.0,2021,Mexico City Grand Prix
+GIO,Alfa Romeo Racing,11.0,11.0,0.0,2021,Mexico City Grand Prix
+RIC,McLaren,7.0,12.0,0.0,2021,Mexico City Grand Prix
+OCO,Alpine,19.0,13.0,0.0,2021,Mexico City Grand Prix
+STR,Aston Martin,20.0,14.0,0.0,2021,Mexico City Grand Prix
+BOT,Mercedes,1.0,15.0,0.0,2021,Mexico City Grand Prix
+RUS,Williams,16.0,16.0,0.0,2021,Mexico City Grand Prix
+LAT,Williams,13.0,17.0,0.0,2021,Mexico City Grand Prix
+MAZ,Haas F1 Team,15.0,18.0,0.0,2021,Mexico City Grand Prix
+MSC,Haas F1 Team,14.0,19.0,0.0,2021,Mexico City Grand Prix
+TSU,AlphaTauri,17.0,20.0,0.0,2021,Mexico City Grand Prix
+HAM,Mercedes,10.0,1.0,25.0,2021,São Paulo Grand Prix
+VER,Red Bull Racing,2.0,2.0,18.0,2021,São Paulo Grand Prix
+BOT,Mercedes,1.0,3.0,15.0,2021,São Paulo Grand Prix
+PER,Red Bull Racing,4.0,4.0,13.0,2021,São Paulo Grand Prix
+LEC,Ferrari,6.0,5.0,10.0,2021,São Paulo Grand Prix
+SAI,Ferrari,3.0,6.0,8.0,2021,São Paulo Grand Prix
+GAS,AlphaTauri,7.0,7.0,6.0,2021,São Paulo Grand Prix
+OCO,Alpine,8.0,8.0,4.0,2021,São Paulo Grand Prix
+ALO,Alpine,12.0,9.0,2.0,2021,São Paulo Grand Prix
+NOR,McLaren,5.0,10.0,1.0,2021,São Paulo Grand Prix
+VET,Aston Martin,9.0,11.0,0.0,2021,São Paulo Grand Prix
+RAI,Alfa Romeo Racing,0.0,12.0,0.0,2021,São Paulo Grand Prix
+RUS,Williams,17.0,13.0,0.0,2021,São Paulo Grand Prix
+GIO,Alfa Romeo Racing,13.0,14.0,0.0,2021,São Paulo Grand Prix
+TSU,AlphaTauri,15.0,15.0,0.0,2021,São Paulo Grand Prix
+LAT,Williams,16.0,16.0,0.0,2021,São Paulo Grand Prix
+MAZ,Haas F1 Team,19.0,17.0,0.0,2021,São Paulo Grand Prix
+MSC,Haas F1 Team,18.0,18.0,0.0,2021,São Paulo Grand Prix
+RIC,McLaren,11.0,19.0,0.0,2021,São Paulo Grand Prix
+STR,Aston Martin,14.0,20.0,0.0,2021,São Paulo Grand Prix
+HAM,Mercedes,1.0,1.0,25.0,2021,Qatar Grand Prix
+VER,Red Bull Racing,7.0,2.0,19.0,2021,Qatar Grand Prix
+ALO,Alpine,3.0,3.0,15.0,2021,Qatar Grand Prix
+PER,Red Bull Racing,11.0,4.0,12.0,2021,Qatar Grand Prix
+OCO,Alpine,9.0,5.0,10.0,2021,Qatar Grand Prix
+STR,Aston Martin,12.0,6.0,8.0,2021,Qatar Grand Prix
+SAI,Ferrari,5.0,7.0,6.0,2021,Qatar Grand Prix
+LEC,Ferrari,13.0,8.0,4.0,2021,Qatar Grand Prix
+NOR,McLaren,4.0,9.0,2.0,2021,Qatar Grand Prix
+VET,Aston Martin,10.0,10.0,1.0,2021,Qatar Grand Prix
+GAS,AlphaTauri,2.0,11.0,0.0,2021,Qatar Grand Prix
+RIC,McLaren,14.0,12.0,0.0,2021,Qatar Grand Prix
+TSU,AlphaTauri,8.0,13.0,0.0,2021,Qatar Grand Prix
+RAI,Alfa Romeo Racing,16.0,14.0,0.0,2021,Qatar Grand Prix
+GIO,Alfa Romeo Racing,18.0,15.0,0.0,2021,Qatar Grand Prix
+MSC,Haas F1 Team,19.0,16.0,0.0,2021,Qatar Grand Prix
+RUS,Williams,15.0,17.0,0.0,2021,Qatar Grand Prix
+MAZ,Haas F1 Team,20.0,18.0,0.0,2021,Qatar Grand Prix
+LAT,Williams,17.0,19.0,0.0,2021,Qatar Grand Prix
+BOT,Mercedes,6.0,20.0,0.0,2021,Qatar Grand Prix
+HAM,Mercedes,1.0,1.0,26.0,2021,Saudi Arabian Grand Prix
+VER,Red Bull Racing,3.0,2.0,18.0,2021,Saudi Arabian Grand Prix
+BOT,Mercedes,2.0,3.0,15.0,2021,Saudi Arabian Grand Prix
+OCO,Alpine,9.0,4.0,12.0,2021,Saudi Arabian Grand Prix
+RIC,McLaren,11.0,5.0,10.0,2021,Saudi Arabian Grand Prix
+GAS,AlphaTauri,6.0,6.0,8.0,2021,Saudi Arabian Grand Prix
+LEC,Ferrari,4.0,7.0,6.0,2021,Saudi Arabian Grand Prix
+SAI,Ferrari,15.0,8.0,4.0,2021,Saudi Arabian Grand Prix
+GIO,Alfa Romeo Racing,10.0,9.0,2.0,2021,Saudi Arabian Grand Prix
+NOR,McLaren,7.0,10.0,1.0,2021,Saudi Arabian Grand Prix
+STR,Aston Martin,18.0,11.0,0.0,2021,Saudi Arabian Grand Prix
+LAT,Williams,16.0,12.0,0.0,2021,Saudi Arabian Grand Prix
+ALO,Alpine,13.0,13.0,0.0,2021,Saudi Arabian Grand Prix
+TSU,AlphaTauri,8.0,14.0,0.0,2021,Saudi Arabian Grand Prix
+RAI,Alfa Romeo Racing,12.0,15.0,0.0,2021,Saudi Arabian Grand Prix
+VET,Aston Martin,17.0,16.0,0.0,2021,Saudi Arabian Grand Prix
+PER,Red Bull Racing,5.0,17.0,0.0,2021,Saudi Arabian Grand Prix
+MAZ,Haas F1 Team,20.0,18.0,0.0,2021,Saudi Arabian Grand Prix
+RUS,Williams,14.0,19.0,0.0,2021,Saudi Arabian Grand Prix
+MSC,Haas F1 Team,19.0,20.0,0.0,2021,Saudi Arabian Grand Prix
+VER,Red Bull Racing,1.0,1.0,26.0,2021,Abu Dhabi Grand Prix
+HAM,Mercedes,2.0,2.0,18.0,2021,Abu Dhabi Grand Prix
+SAI,Ferrari,5.0,3.0,15.0,2021,Abu Dhabi Grand Prix
+TSU,AlphaTauri,8.0,4.0,12.0,2021,Abu Dhabi Grand Prix
+GAS,AlphaTauri,12.0,5.0,10.0,2021,Abu Dhabi Grand Prix
+BOT,Mercedes,6.0,6.0,8.0,2021,Abu Dhabi Grand Prix
+NOR,McLaren,3.0,7.0,6.0,2021,Abu Dhabi Grand Prix
+ALO,Alpine,11.0,8.0,4.0,2021,Abu Dhabi Grand Prix
+OCO,Alpine,9.0,9.0,2.0,2021,Abu Dhabi Grand Prix
+LEC,Ferrari,7.0,10.0,1.0,2021,Abu Dhabi Grand Prix
+VET,Aston Martin,15.0,11.0,0.0,2021,Abu Dhabi Grand Prix
+RIC,McLaren,10.0,12.0,0.0,2021,Abu Dhabi Grand Prix
+STR,Aston Martin,13.0,13.0,0.0,2021,Abu Dhabi Grand Prix
+MSC,Haas F1 Team,19.0,14.0,0.0,2021,Abu Dhabi Grand Prix
+PER,Red Bull Racing,4.0,15.0,0.0,2021,Abu Dhabi Grand Prix
+LAT,Williams,16.0,16.0,0.0,2021,Abu Dhabi Grand Prix
+GIO,Alfa Romeo Racing,14.0,17.0,0.0,2021,Abu Dhabi Grand Prix
+RUS,Williams,17.0,18.0,0.0,2021,Abu Dhabi Grand Prix
+RAI,Alfa Romeo Racing,18.0,19.0,0.0,2021,Abu Dhabi Grand Prix
+MAZ,Haas F1 Team,,,0.0,2021,Abu Dhabi Grand Prix
+LEC,Ferrari,1.0,1.0,26.0,2022,Bahrain Grand Prix
+SAI,Ferrari,3.0,2.0,18.0,2022,Bahrain Grand Prix
+HAM,Mercedes,5.0,3.0,15.0,2022,Bahrain Grand Prix
+RUS,Mercedes,9.0,4.0,12.0,2022,Bahrain Grand Prix
+MAG,Haas F1 Team,7.0,5.0,10.0,2022,Bahrain Grand Prix
+BOT,Alfa Romeo,6.0,6.0,8.0,2022,Bahrain Grand Prix
+OCO,Alpine,11.0,7.0,6.0,2022,Bahrain Grand Prix
+TSU,AlphaTauri,16.0,8.0,4.0,2022,Bahrain Grand Prix
+ALO,Alpine,8.0,9.0,2.0,2022,Bahrain Grand Prix
+ZHO,Alfa Romeo,15.0,10.0,1.0,2022,Bahrain Grand Prix
+MSC,Haas F1 Team,12.0,11.0,0.0,2022,Bahrain Grand Prix
+STR,Aston Martin,19.0,12.0,0.0,2022,Bahrain Grand Prix
+ALB,Williams,14.0,13.0,0.0,2022,Bahrain Grand Prix
+RIC,McLaren,18.0,14.0,0.0,2022,Bahrain Grand Prix
+NOR,McLaren,13.0,15.0,0.0,2022,Bahrain Grand Prix
+LAT,Williams,20.0,16.0,0.0,2022,Bahrain Grand Prix
+HUL,Aston Martin,17.0,17.0,0.0,2022,Bahrain Grand Prix
+PER,Red Bull Racing,4.0,18.0,0.0,2022,Bahrain Grand Prix
+VER,Red Bull Racing,2.0,19.0,0.0,2022,Bahrain Grand Prix
+GAS,AlphaTauri,10.0,20.0,0.0,2022,Bahrain Grand Prix
+VER,Red Bull Racing,4.0,1.0,25.0,2022,Saudi Arabian Grand Prix
+LEC,Ferrari,2.0,2.0,19.0,2022,Saudi Arabian Grand Prix
+SAI,Ferrari,3.0,3.0,15.0,2022,Saudi Arabian Grand Prix
+PER,Red Bull Racing,1.0,4.0,12.0,2022,Saudi Arabian Grand Prix
+RUS,Mercedes,6.0,5.0,10.0,2022,Saudi Arabian Grand Prix
+OCO,Alpine,5.0,6.0,8.0,2022,Saudi Arabian Grand Prix
+NOR,McLaren,11.0,7.0,6.0,2022,Saudi Arabian Grand Prix
+GAS,AlphaTauri,9.0,8.0,4.0,2022,Saudi Arabian Grand Prix
+MAG,Haas F1 Team,10.0,9.0,2.0,2022,Saudi Arabian Grand Prix
+HAM,Mercedes,15.0,10.0,1.0,2022,Saudi Arabian Grand Prix
+ZHO,Alfa Romeo,12.0,11.0,0.0,2022,Saudi Arabian Grand Prix
+HUL,Aston Martin,17.0,12.0,0.0,2022,Saudi Arabian Grand Prix
+STR,Aston Martin,13.0,13.0,0.0,2022,Saudi Arabian Grand Prix
+ALB,Williams,16.0,14.0,0.0,2022,Saudi Arabian Grand Prix
+BOT,Alfa Romeo,8.0,15.0,0.0,2022,Saudi Arabian Grand Prix
+ALO,Alpine,7.0,16.0,0.0,2022,Saudi Arabian Grand Prix
+RIC,McLaren,14.0,17.0,0.0,2022,Saudi Arabian Grand Prix
+LAT,Williams,18.0,18.0,0.0,2022,Saudi Arabian Grand Prix
+TSU,AlphaTauri,19.0,19.0,0.0,2022,Saudi Arabian Grand Prix
+MSC,Haas F1 Team,,,0.0,2022,Saudi Arabian Grand Prix
+LEC,Ferrari,1.0,1.0,26.0,2022,Australian Grand Prix
+PER,Red Bull Racing,3.0,2.0,18.0,2022,Australian Grand Prix
+RUS,Mercedes,6.0,3.0,15.0,2022,Australian Grand Prix
+HAM,Mercedes,5.0,4.0,12.0,2022,Australian Grand Prix
+NOR,McLaren,4.0,5.0,10.0,2022,Australian Grand Prix
+RIC,McLaren,7.0,6.0,8.0,2022,Australian Grand Prix
+OCO,Alpine,8.0,7.0,6.0,2022,Australian Grand Prix
+BOT,Alfa Romeo,12.0,8.0,4.0,2022,Australian Grand Prix
+GAS,AlphaTauri,11.0,9.0,2.0,2022,Australian Grand Prix
+ALB,Williams,20.0,10.0,1.0,2022,Australian Grand Prix
+ZHO,Alfa Romeo,14.0,11.0,0.0,2022,Australian Grand Prix
+STR,Aston Martin,19.0,12.0,0.0,2022,Australian Grand Prix
+MSC,Haas F1 Team,15.0,13.0,0.0,2022,Australian Grand Prix
+MAG,Haas F1 Team,16.0,14.0,0.0,2022,Australian Grand Prix
+TSU,AlphaTauri,13.0,15.0,0.0,2022,Australian Grand Prix
+LAT,Williams,18.0,16.0,0.0,2022,Australian Grand Prix
+ALO,Alpine,10.0,17.0,0.0,2022,Australian Grand Prix
+VER,Red Bull Racing,2.0,18.0,0.0,2022,Australian Grand Prix
+VET,Aston Martin,17.0,19.0,0.0,2022,Australian Grand Prix
+SAI,Ferrari,9.0,20.0,0.0,2022,Australian Grand Prix
+VER,Red Bull Racing,1.0,1.0,26.0,2022,Emilia Romagna Grand Prix
+PER,Red Bull Racing,3.0,2.0,18.0,2022,Emilia Romagna Grand Prix
+NOR,McLaren,5.0,3.0,15.0,2022,Emilia Romagna Grand Prix
+RUS,Mercedes,11.0,4.0,12.0,2022,Emilia Romagna Grand Prix
+BOT,Alfa Romeo,7.0,5.0,10.0,2022,Emilia Romagna Grand Prix
+LEC,Ferrari,2.0,6.0,8.0,2022,Emilia Romagna Grand Prix
+TSU,AlphaTauri,12.0,7.0,6.0,2022,Emilia Romagna Grand Prix
+VET,Aston Martin,13.0,8.0,4.0,2022,Emilia Romagna Grand Prix
+MAG,Haas F1 Team,8.0,9.0,2.0,2022,Emilia Romagna Grand Prix
+STR,Aston Martin,15.0,10.0,1.0,2022,Emilia Romagna Grand Prix
+ALB,Williams,18.0,11.0,0.0,2022,Emilia Romagna Grand Prix
+GAS,AlphaTauri,17.0,12.0,0.0,2022,Emilia Romagna Grand Prix
+HAM,Mercedes,14.0,13.0,0.0,2022,Emilia Romagna Grand Prix
+OCO,Alpine,16.0,14.0,0.0,2022,Emilia Romagna Grand Prix
+ZHO,Alfa Romeo,0.0,15.0,0.0,2022,Emilia Romagna Grand Prix
+LAT,Williams,19.0,16.0,0.0,2022,Emilia Romagna Grand Prix
+MSC,Haas F1 Team,10.0,17.0,0.0,2022,Emilia Romagna Grand Prix
+RIC,McLaren,6.0,18.0,0.0,2022,Emilia Romagna Grand Prix
+ALO,Alpine,9.0,19.0,0.0,2022,Emilia Romagna Grand Prix
+SAI,Ferrari,4.0,20.0,0.0,2022,Emilia Romagna Grand Prix
+VER,Red Bull Racing,3.0,1.0,26.0,2022,Miami Grand Prix
+LEC,Ferrari,1.0,2.0,18.0,2022,Miami Grand Prix
+SAI,Ferrari,2.0,3.0,15.0,2022,Miami Grand Prix
+PER,Red Bull Racing,4.0,4.0,12.0,2022,Miami Grand Prix
+RUS,Mercedes,12.0,5.0,10.0,2022,Miami Grand Prix
+HAM,Mercedes,6.0,6.0,8.0,2022,Miami Grand Prix
+BOT,Alfa Romeo,5.0,7.0,6.0,2022,Miami Grand Prix
+OCO,Alpine,20.0,8.0,4.0,2022,Miami Grand Prix
+ALB,Williams,18.0,9.0,2.0,2022,Miami Grand Prix
+STR,Aston Martin,0.0,10.0,1.0,2022,Miami Grand Prix
+ALO,Alpine,11.0,11.0,0.0,2022,Miami Grand Prix
+TSU,AlphaTauri,9.0,12.0,0.0,2022,Miami Grand Prix
+RIC,McLaren,14.0,13.0,0.0,2022,Miami Grand Prix
+LAT,Williams,19.0,14.0,0.0,2022,Miami Grand Prix
+MSC,Haas F1 Team,15.0,15.0,0.0,2022,Miami Grand Prix
+MAG,Haas F1 Team,16.0,16.0,0.0,2022,Miami Grand Prix
+VET,Aston Martin,0.0,17.0,0.0,2022,Miami Grand Prix
+GAS,AlphaTauri,7.0,18.0,0.0,2022,Miami Grand Prix
+NOR,McLaren,8.0,19.0,0.0,2022,Miami Grand Prix
+ZHO,Alfa Romeo,17.0,20.0,0.0,2022,Miami Grand Prix
+VER,Red Bull Racing,2.0,1.0,25.0,2022,Spanish Grand Prix
+PER,Red Bull Racing,5.0,2.0,19.0,2022,Spanish Grand Prix
+RUS,Mercedes,4.0,3.0,15.0,2022,Spanish Grand Prix
+SAI,Ferrari,3.0,4.0,12.0,2022,Spanish Grand Prix
+HAM,Mercedes,6.0,5.0,10.0,2022,Spanish Grand Prix
+BOT,Alfa Romeo,7.0,6.0,8.0,2022,Spanish Grand Prix
+OCO,Alpine,12.0,7.0,6.0,2022,Spanish Grand Prix
+NOR,McLaren,11.0,8.0,4.0,2022,Spanish Grand Prix
+ALO,Alpine,20.0,9.0,2.0,2022,Spanish Grand Prix
+TSU,AlphaTauri,13.0,10.0,1.0,2022,Spanish Grand Prix
+VET,Aston Martin,16.0,11.0,0.0,2022,Spanish Grand Prix
+RIC,McLaren,9.0,12.0,0.0,2022,Spanish Grand Prix
+GAS,AlphaTauri,14.0,13.0,0.0,2022,Spanish Grand Prix
+MSC,Haas F1 Team,10.0,14.0,0.0,2022,Spanish Grand Prix
+STR,Aston Martin,17.0,15.0,0.0,2022,Spanish Grand Prix
+LAT,Williams,19.0,16.0,0.0,2022,Spanish Grand Prix
+MAG,Haas F1 Team,8.0,17.0,0.0,2022,Spanish Grand Prix
+ALB,Williams,18.0,18.0,0.0,2022,Spanish Grand Prix
+ZHO,Alfa Romeo,15.0,19.0,0.0,2022,Spanish Grand Prix
+LEC,Ferrari,1.0,20.0,0.0,2022,Spanish Grand Prix
+PER,Red Bull Racing,3.0,1.0,25.0,2022,Monaco Grand Prix
+SAI,Ferrari,2.0,2.0,18.0,2022,Monaco Grand Prix
+VER,Red Bull Racing,4.0,3.0,15.0,2022,Monaco Grand Prix
+LEC,Ferrari,1.0,4.0,12.0,2022,Monaco Grand Prix
+RUS,Mercedes,6.0,5.0,10.0,2022,Monaco Grand Prix
+NOR,McLaren,5.0,6.0,9.0,2022,Monaco Grand Prix
+ALO,Alpine,7.0,7.0,6.0,2022,Monaco Grand Prix
+HAM,Mercedes,8.0,8.0,4.0,2022,Monaco Grand Prix
+BOT,Alfa Romeo,12.0,9.0,2.0,2022,Monaco Grand Prix
+VET,Aston Martin,9.0,10.0,1.0,2022,Monaco Grand Prix
+GAS,AlphaTauri,17.0,11.0,0.0,2022,Monaco Grand Prix
+OCO,Alpine,10.0,12.0,0.0,2022,Monaco Grand Prix
+RIC,McLaren,14.0,13.0,0.0,2022,Monaco Grand Prix
+STR,Aston Martin,18.0,14.0,0.0,2022,Monaco Grand Prix
+LAT,Williams,19.0,15.0,0.0,2022,Monaco Grand Prix
+ZHO,Alfa Romeo,20.0,16.0,0.0,2022,Monaco Grand Prix
+TSU,AlphaTauri,11.0,17.0,0.0,2022,Monaco Grand Prix
+ALB,Williams,16.0,18.0,0.0,2022,Monaco Grand Prix
+MSC,Haas F1 Team,15.0,19.0,0.0,2022,Monaco Grand Prix
+MAG,Haas F1 Team,13.0,20.0,0.0,2022,Monaco Grand Prix
+VER,Red Bull Racing,3.0,1.0,25.0,2022,Azerbaijan Grand Prix
+PER,Red Bull Racing,2.0,2.0,19.0,2022,Azerbaijan Grand Prix
+RUS,Mercedes,5.0,3.0,15.0,2022,Azerbaijan Grand Prix
+HAM,Mercedes,7.0,4.0,12.0,2022,Azerbaijan Grand Prix
+GAS,AlphaTauri,6.0,5.0,10.0,2022,Azerbaijan Grand Prix
+VET,Aston Martin,9.0,6.0,8.0,2022,Azerbaijan Grand Prix
+ALO,Alpine,10.0,7.0,6.0,2022,Azerbaijan Grand Prix
+RIC,McLaren,12.0,8.0,4.0,2022,Azerbaijan Grand Prix
+NOR,McLaren,11.0,9.0,2.0,2022,Azerbaijan Grand Prix
+OCO,Alpine,13.0,10.0,1.0,2022,Azerbaijan Grand Prix
+BOT,Alfa Romeo,15.0,11.0,0.0,2022,Azerbaijan Grand Prix
+ALB,Williams,17.0,12.0,0.0,2022,Azerbaijan Grand Prix
+TSU,AlphaTauri,8.0,13.0,0.0,2022,Azerbaijan Grand Prix
+MSC,Haas F1 Team,20.0,14.0,0.0,2022,Azerbaijan Grand Prix
+LAT,Williams,18.0,15.0,0.0,2022,Azerbaijan Grand Prix
+STR,Aston Martin,19.0,16.0,0.0,2022,Azerbaijan Grand Prix
+MAG,Haas F1 Team,16.0,17.0,0.0,2022,Azerbaijan Grand Prix
+ZHO,Alfa Romeo,14.0,18.0,0.0,2022,Azerbaijan Grand Prix
+LEC,Ferrari,1.0,19.0,0.0,2022,Azerbaijan Grand Prix
+SAI,Ferrari,4.0,20.0,0.0,2022,Azerbaijan Grand Prix
+VER,Red Bull Racing,1.0,1.0,25.0,2022,Canadian Grand Prix
+SAI,Ferrari,3.0,2.0,19.0,2022,Canadian Grand Prix
+HAM,Mercedes,4.0,3.0,15.0,2022,Canadian Grand Prix
+RUS,Mercedes,8.0,4.0,12.0,2022,Canadian Grand Prix
+LEC,Ferrari,19.0,5.0,10.0,2022,Canadian Grand Prix
+OCO,Alpine,7.0,6.0,8.0,2022,Canadian Grand Prix
+BOT,Alfa Romeo,11.0,7.0,6.0,2022,Canadian Grand Prix
+ZHO,Alfa Romeo,10.0,8.0,4.0,2022,Canadian Grand Prix
+ALO,Alpine,2.0,9.0,2.0,2022,Canadian Grand Prix
+STR,Aston Martin,17.0,10.0,1.0,2022,Canadian Grand Prix
+RIC,McLaren,9.0,11.0,0.0,2022,Canadian Grand Prix
+VET,Aston Martin,16.0,12.0,0.0,2022,Canadian Grand Prix
+ALB,Williams,12.0,13.0,0.0,2022,Canadian Grand Prix
+GAS,AlphaTauri,15.0,14.0,0.0,2022,Canadian Grand Prix
+NOR,McLaren,14.0,15.0,0.0,2022,Canadian Grand Prix
+LAT,Williams,18.0,16.0,0.0,2022,Canadian Grand Prix
+MAG,Haas F1 Team,5.0,17.0,0.0,2022,Canadian Grand Prix
+TSU,AlphaTauri,20.0,18.0,0.0,2022,Canadian Grand Prix
+MSC,Haas F1 Team,6.0,19.0,0.0,2022,Canadian Grand Prix
+PER,Red Bull Racing,13.0,20.0,0.0,2022,Canadian Grand Prix
+SAI,Ferrari,1.0,1.0,25.0,2022,British Grand Prix
+PER,Red Bull Racing,4.0,2.0,18.0,2022,British Grand Prix
+HAM,Mercedes,5.0,3.0,16.0,2022,British Grand Prix
+LEC,Ferrari,3.0,4.0,12.0,2022,British Grand Prix
+ALO,Alpine,7.0,5.0,10.0,2022,British Grand Prix
+NOR,McLaren,6.0,6.0,8.0,2022,British Grand Prix
+VER,Red Bull Racing,2.0,7.0,6.0,2022,British Grand Prix
+MSC,Haas F1 Team,19.0,8.0,4.0,2022,British Grand Prix
+VET,Aston Martin,18.0,9.0,2.0,2022,British Grand Prix
+MAG,Haas F1 Team,17.0,10.0,1.0,2022,British Grand Prix
+STR,Aston Martin,20.0,11.0,0.0,2022,British Grand Prix
+LAT,Williams,10.0,12.0,0.0,2022,British Grand Prix
+RIC,McLaren,14.0,13.0,0.0,2022,British Grand Prix
+TSU,AlphaTauri,13.0,14.0,0.0,2022,British Grand Prix
+OCO,Alpine,15.0,15.0,0.0,2022,British Grand Prix
+GAS,AlphaTauri,11.0,16.0,0.0,2022,British Grand Prix
+BOT,Alfa Romeo,12.0,17.0,0.0,2022,British Grand Prix
+RUS,Mercedes,8.0,18.0,0.0,2022,British Grand Prix
+ZHO,Alfa Romeo,9.0,19.0,0.0,2022,British Grand Prix
+ALB,Williams,16.0,20.0,0.0,2022,British Grand Prix
+LEC,Ferrari,2.0,1.0,25.0,2022,Austrian Grand Prix
+VER,Red Bull Racing,1.0,2.0,19.0,2022,Austrian Grand Prix
+HAM,Mercedes,8.0,3.0,15.0,2022,Austrian Grand Prix
+RUS,Mercedes,4.0,4.0,12.0,2022,Austrian Grand Prix
+OCO,Alpine,6.0,5.0,10.0,2022,Austrian Grand Prix
+MSC,Haas F1 Team,9.0,6.0,8.0,2022,Austrian Grand Prix
+NOR,McLaren,10.0,7.0,6.0,2022,Austrian Grand Prix
+MAG,Haas F1 Team,7.0,8.0,4.0,2022,Austrian Grand Prix
+RIC,McLaren,11.0,9.0,2.0,2022,Austrian Grand Prix
+ALO,Alpine,19.0,10.0,1.0,2022,Austrian Grand Prix
+BOT,Alfa Romeo,0.0,11.0,0.0,2022,Austrian Grand Prix
+ALB,Williams,15.0,12.0,0.0,2022,Austrian Grand Prix
+STR,Aston Martin,12.0,13.0,0.0,2022,Austrian Grand Prix
+ZHO,Alfa Romeo,13.0,14.0,0.0,2022,Austrian Grand Prix
+GAS,AlphaTauri,14.0,15.0,0.0,2022,Austrian Grand Prix
+TSU,AlphaTauri,16.0,16.0,0.0,2022,Austrian Grand Prix
+VET,Aston Martin,18.0,17.0,0.0,2022,Austrian Grand Prix
+SAI,Ferrari,3.0,18.0,0.0,2022,Austrian Grand Prix
+LAT,Williams,17.0,19.0,0.0,2022,Austrian Grand Prix
+PER,Red Bull Racing,5.0,20.0,0.0,2022,Austrian Grand Prix
+VER,Red Bull Racing,2.0,1.0,25.0,2022,French Grand Prix
+HAM,Mercedes,4.0,2.0,18.0,2022,French Grand Prix
+RUS,Mercedes,6.0,3.0,15.0,2022,French Grand Prix
+PER,Red Bull Racing,3.0,4.0,12.0,2022,French Grand Prix
+SAI,Ferrari,19.0,5.0,11.0,2022,French Grand Prix
+ALO,Alpine,7.0,6.0,8.0,2022,French Grand Prix
+NOR,McLaren,5.0,7.0,6.0,2022,French Grand Prix
+OCO,Alpine,10.0,8.0,4.0,2022,French Grand Prix
+RIC,McLaren,9.0,9.0,2.0,2022,French Grand Prix
+STR,Aston Martin,15.0,10.0,1.0,2022,French Grand Prix
+VET,Aston Martin,12.0,11.0,0.0,2022,French Grand Prix
+GAS,AlphaTauri,14.0,12.0,0.0,2022,French Grand Prix
+ALB,Williams,13.0,13.0,0.0,2022,French Grand Prix
+BOT,Alfa Romeo,11.0,14.0,0.0,2022,French Grand Prix
+MSC,Haas F1 Team,17.0,15.0,0.0,2022,French Grand Prix
+ZHO,Alfa Romeo,16.0,16.0,0.0,2022,French Grand Prix
+LAT,Williams,18.0,17.0,0.0,2022,French Grand Prix
+MAG,Haas F1 Team,20.0,18.0,0.0,2022,French Grand Prix
+LEC,Ferrari,1.0,19.0,0.0,2022,French Grand Prix
+TSU,AlphaTauri,8.0,20.0,0.0,2022,French Grand Prix
+VER,Red Bull Racing,10.0,1.0,25.0,2022,Hungarian Grand Prix
+HAM,Mercedes,7.0,2.0,19.0,2022,Hungarian Grand Prix
+RUS,Mercedes,1.0,3.0,15.0,2022,Hungarian Grand Prix
+SAI,Ferrari,2.0,4.0,12.0,2022,Hungarian Grand Prix
+PER,Red Bull Racing,11.0,5.0,10.0,2022,Hungarian Grand Prix
+LEC,Ferrari,3.0,6.0,8.0,2022,Hungarian Grand Prix
+NOR,McLaren,4.0,7.0,6.0,2022,Hungarian Grand Prix
+ALO,Alpine,6.0,8.0,4.0,2022,Hungarian Grand Prix
+OCO,Alpine,5.0,9.0,2.0,2022,Hungarian Grand Prix
+VET,Aston Martin,18.0,10.0,1.0,2022,Hungarian Grand Prix
+STR,Aston Martin,14.0,11.0,0.0,2022,Hungarian Grand Prix
+GAS,AlphaTauri,0.0,12.0,0.0,2022,Hungarian Grand Prix
+ZHO,Alfa Romeo,12.0,13.0,0.0,2022,Hungarian Grand Prix
+MSC,Haas F1 Team,15.0,14.0,0.0,2022,Hungarian Grand Prix
+RIC,McLaren,9.0,15.0,0.0,2022,Hungarian Grand Prix
+MAG,Haas F1 Team,13.0,16.0,0.0,2022,Hungarian Grand Prix
+ALB,Williams,17.0,17.0,0.0,2022,Hungarian Grand Prix
+LAT,Williams,19.0,18.0,0.0,2022,Hungarian Grand Prix
+TSU,AlphaTauri,16.0,19.0,0.0,2022,Hungarian Grand Prix
+BOT,Alfa Romeo,8.0,20.0,0.0,2022,Hungarian Grand Prix
+VER,Red Bull Racing,14.0,1.0,26.0,2022,Belgian Grand Prix
+PER,Red Bull Racing,2.0,2.0,18.0,2022,Belgian Grand Prix
+SAI,Ferrari,1.0,3.0,15.0,2022,Belgian Grand Prix
+RUS,Mercedes,5.0,4.0,12.0,2022,Belgian Grand Prix
+ALO,Alpine,3.0,5.0,10.0,2022,Belgian Grand Prix
+LEC,Ferrari,15.0,6.0,8.0,2022,Belgian Grand Prix
+OCO,Alpine,16.0,7.0,6.0,2022,Belgian Grand Prix
+VET,Aston Martin,10.0,8.0,4.0,2022,Belgian Grand Prix
+GAS,AlphaTauri,0.0,9.0,2.0,2022,Belgian Grand Prix
+ALB,Williams,6.0,10.0,1.0,2022,Belgian Grand Prix
+STR,Aston Martin,9.0,11.0,0.0,2022,Belgian Grand Prix
+NOR,McLaren,17.0,12.0,0.0,2022,Belgian Grand Prix
+TSU,AlphaTauri,0.0,13.0,0.0,2022,Belgian Grand Prix
+ZHO,Alfa Romeo,18.0,14.0,0.0,2022,Belgian Grand Prix
+RIC,McLaren,7.0,15.0,0.0,2022,Belgian Grand Prix
+MAG,Haas F1 Team,12.0,16.0,0.0,2022,Belgian Grand Prix
+MSC,Haas F1 Team,19.0,17.0,0.0,2022,Belgian Grand Prix
+LAT,Williams,11.0,18.0,0.0,2022,Belgian Grand Prix
+BOT,Alfa Romeo,13.0,19.0,0.0,2022,Belgian Grand Prix
+HAM,Mercedes,4.0,20.0,0.0,2022,Belgian Grand Prix
+VER,Red Bull Racing,1.0,1.0,26.0,2022,Dutch Grand Prix
+RUS,Mercedes,6.0,2.0,18.0,2022,Dutch Grand Prix
+LEC,Ferrari,2.0,3.0,15.0,2022,Dutch Grand Prix
+HAM,Mercedes,4.0,4.0,12.0,2022,Dutch Grand Prix
+PER,Red Bull Racing,5.0,5.0,10.0,2022,Dutch Grand Prix
+ALO,Alpine,13.0,6.0,8.0,2022,Dutch Grand Prix
+NOR,McLaren,7.0,7.0,6.0,2022,Dutch Grand Prix
+SAI,Ferrari,3.0,8.0,4.0,2022,Dutch Grand Prix
+OCO,Alpine,12.0,9.0,2.0,2022,Dutch Grand Prix
+STR,Aston Martin,10.0,10.0,1.0,2022,Dutch Grand Prix
+GAS,AlphaTauri,11.0,11.0,0.0,2022,Dutch Grand Prix
+ALB,Williams,15.0,12.0,0.0,2022,Dutch Grand Prix
+MSC,Haas F1 Team,8.0,13.0,0.0,2022,Dutch Grand Prix
+VET,Aston Martin,19.0,14.0,0.0,2022,Dutch Grand Prix
+MAG,Haas F1 Team,18.0,15.0,0.0,2022,Dutch Grand Prix
+ZHO,Alfa Romeo,14.0,16.0,0.0,2022,Dutch Grand Prix
+RIC,McLaren,17.0,17.0,0.0,2022,Dutch Grand Prix
+LAT,Williams,20.0,18.0,0.0,2022,Dutch Grand Prix
+BOT,Alfa Romeo,16.0,19.0,0.0,2022,Dutch Grand Prix
+TSU,AlphaTauri,9.0,20.0,0.0,2022,Dutch Grand Prix
+VER,Red Bull Racing,7.0,1.0,25.0,2022,Italian Grand Prix
+LEC,Ferrari,1.0,2.0,18.0,2022,Italian Grand Prix
+RUS,Mercedes,2.0,3.0,15.0,2022,Italian Grand Prix
+SAI,Ferrari,18.0,4.0,12.0,2022,Italian Grand Prix
+HAM,Mercedes,19.0,5.0,10.0,2022,Italian Grand Prix
+PER,Red Bull Racing,13.0,6.0,9.0,2022,Italian Grand Prix
+NOR,McLaren,3.0,7.0,6.0,2022,Italian Grand Prix
+GAS,AlphaTauri,5.0,8.0,4.0,2022,Italian Grand Prix
+DEV,Williams,8.0,9.0,2.0,2022,Italian Grand Prix
+ZHO,Alfa Romeo,9.0,10.0,1.0,2022,Italian Grand Prix
+OCO,Alpine,14.0,11.0,0.0,2022,Italian Grand Prix
+MSC,Haas F1 Team,17.0,12.0,0.0,2022,Italian Grand Prix
+BOT,Alfa Romeo,15.0,13.0,0.0,2022,Italian Grand Prix
+TSU,AlphaTauri,20.0,14.0,0.0,2022,Italian Grand Prix
+LAT,Williams,10.0,15.0,0.0,2022,Italian Grand Prix
+MAG,Haas F1 Team,16.0,16.0,0.0,2022,Italian Grand Prix
+RIC,McLaren,4.0,17.0,0.0,2022,Italian Grand Prix
+STR,Aston Martin,12.0,18.0,0.0,2022,Italian Grand Prix
+ALO,Alpine,6.0,19.0,0.0,2022,Italian Grand Prix
+VET,Aston Martin,11.0,20.0,0.0,2022,Italian Grand Prix
+PER,Red Bull Racing,2.0,1.0,25.0,2022,Singapore Grand Prix
+LEC,Ferrari,1.0,2.0,18.0,2022,Singapore Grand Prix
+SAI,Ferrari,4.0,3.0,15.0,2022,Singapore Grand Prix
+NOR,McLaren,6.0,4.0,12.0,2022,Singapore Grand Prix
+RIC,McLaren,16.0,5.0,10.0,2022,Singapore Grand Prix
+STR,Aston Martin,11.0,6.0,8.0,2022,Singapore Grand Prix
+VER,Red Bull Racing,8.0,7.0,6.0,2022,Singapore Grand Prix
+VET,Aston Martin,13.0,8.0,4.0,2022,Singapore Grand Prix
+HAM,Mercedes,3.0,9.0,2.0,2022,Singapore Grand Prix
+GAS,AlphaTauri,7.0,10.0,1.0,2022,Singapore Grand Prix
+BOT,Alfa Romeo,15.0,11.0,0.0,2022,Singapore Grand Prix
+MAG,Haas F1 Team,9.0,12.0,0.0,2022,Singapore Grand Prix
+MSC,Haas F1 Team,12.0,13.0,0.0,2022,Singapore Grand Prix
+RUS,Mercedes,0.0,14.0,0.0,2022,Singapore Grand Prix
+TSU,AlphaTauri,10.0,15.0,0.0,2022,Singapore Grand Prix
+OCO,Alpine,17.0,16.0,0.0,2022,Singapore Grand Prix
+ALB,Williams,18.0,17.0,0.0,2022,Singapore Grand Prix
+ALO,Alpine,5.0,18.0,0.0,2022,Singapore Grand Prix
+LAT,Williams,19.0,19.0,0.0,2022,Singapore Grand Prix
+ZHO,Alfa Romeo,14.0,20.0,0.0,2022,Singapore Grand Prix
+VER,Red Bull Racing,1.0,1.0,25.0,2022,Japanese Grand Prix
+PER,Red Bull Racing,4.0,2.0,18.0,2022,Japanese Grand Prix
+LEC,Ferrari,2.0,3.0,15.0,2022,Japanese Grand Prix
+OCO,Alpine,5.0,4.0,12.0,2022,Japanese Grand Prix
+HAM,Mercedes,6.0,5.0,10.0,2022,Japanese Grand Prix
+VET,Aston Martin,9.0,6.0,8.0,2022,Japanese Grand Prix
+ALO,Alpine,7.0,7.0,6.0,2022,Japanese Grand Prix
+RUS,Mercedes,8.0,8.0,4.0,2022,Japanese Grand Prix
+LAT,Williams,20.0,9.0,2.0,2022,Japanese Grand Prix
+NOR,McLaren,10.0,10.0,1.0,2022,Japanese Grand Prix
+RIC,McLaren,11.0,11.0,0.0,2022,Japanese Grand Prix
+STR,Aston Martin,19.0,12.0,0.0,2022,Japanese Grand Prix
+TSU,AlphaTauri,13.0,13.0,0.0,2022,Japanese Grand Prix
+MAG,Haas F1 Team,18.0,14.0,0.0,2022,Japanese Grand Prix
+BOT,Alfa Romeo,12.0,15.0,0.0,2022,Japanese Grand Prix
+ZHO,Alfa Romeo,14.0,16.0,0.0,2022,Japanese Grand Prix
+MSC,Haas F1 Team,15.0,17.0,0.0,2022,Japanese Grand Prix
+GAS,AlphaTauri,17.0,18.0,0.0,2022,Japanese Grand Prix
+SAI,Ferrari,3.0,19.0,0.0,2022,Japanese Grand Prix
+ALB,Williams,16.0,20.0,0.0,2022,Japanese Grand Prix
+VER,Red Bull Racing,1.0,1.0,25.0,2023,Bahrain Grand Prix
+PER,Red Bull Racing,2.0,2.0,18.0,2023,Bahrain Grand Prix
+ALO,Aston Martin,5.0,3.0,15.0,2023,Bahrain Grand Prix
+SAI,Ferrari,4.0,4.0,12.0,2023,Bahrain Grand Prix
+HAM,Mercedes,7.0,5.0,10.0,2023,Bahrain Grand Prix
+STR,Aston Martin,8.0,6.0,8.0,2023,Bahrain Grand Prix
+RUS,Mercedes,6.0,7.0,6.0,2023,Bahrain Grand Prix
+BOT,Alfa Romeo,12.0,8.0,4.0,2023,Bahrain Grand Prix
+GAS,Alpine,20.0,9.0,2.0,2023,Bahrain Grand Prix
+ALB,Williams,15.0,10.0,1.0,2023,Bahrain Grand Prix
+TSU,AlphaTauri,14.0,11.0,0.0,2023,Bahrain Grand Prix
+SAR,Williams,16.0,12.0,0.0,2023,Bahrain Grand Prix
+MAG,Haas F1 Team,17.0,13.0,0.0,2023,Bahrain Grand Prix
+DEV,AlphaTauri,19.0,14.0,0.0,2023,Bahrain Grand Prix
+HUL,Haas F1 Team,10.0,15.0,0.0,2023,Bahrain Grand Prix
+ZHO,Alfa Romeo,13.0,16.0,0.0,2023,Bahrain Grand Prix
+NOR,McLaren,11.0,17.0,0.0,2023,Bahrain Grand Prix
+OCO,Alpine,9.0,18.0,0.0,2023,Bahrain Grand Prix
+LEC,Ferrari,3.0,19.0,0.0,2023,Bahrain Grand Prix
+PIA,McLaren,18.0,20.0,0.0,2023,Bahrain Grand Prix
