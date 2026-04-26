@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
     <title>F1 Race Predictor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: Arial, sans-serif;
             background-image: url("/static/bgs.jpg");
-            background-size: cover;        /* makes it fill screen */
-            background-position: center;   /* centers image */
-            background-repeat: no-repeat;  /* prevents tiling */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: white;
             min-height: 100vh;
             display: flex;
@@ -21,36 +20,69 @@
             align-items: center;
             padding: 40px 20px;
         }
-        .emilys-candy-regular {
+        h1 {
+            color: whitesmoke;
+            font-size: 50px;
+            margin-bottom: 8px;
             font-family: "Emilys Candy", serif;
-            font-weight: 400;
-            font-style: normal;
         }
+        p.subtitle { color: #aaa; margin-bottom: 24px; text-align: center; }
 
-        h1 { color: whitesmoke; font-size: 50px; margin-bottom: 8px; font-family: "Emilys Candy", serif; }
-        p.subtitle { color: #aaa; margin-bottom: 30px; }
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 28px;
+            background: #ff98d4;
+            border-radius: 10px;
+            padding: 4px;
+        }
+        .tab-btn {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 8px;
+            background: transparent;
+            color: #5a003a;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .tab-btn.active { background: #f14ba9; color: white; }
+        .tab-btn:hover:not(.active) { color: white; background: #f175bc; }
+
+        .tab-content { display: none; width: 100%; max-width: 900px; }
+        .tab-content.active { display: block; }
+
+        /* Cards */
         .card {
+            flex: 1;
             background: #ff98d4;
             border-radius: 12px;
-            padding: 30px;
-            width: 100%;
-            max-width: 500px;
-            margin-bottom: 20px;
+            padding: 24px;
         }
-        label { display: block; margin-bottom: 6px; font-size: 14px; color: #000000; }
+        .card h3 {
+            color: #5a003a;
+            margin-bottom: 16px;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: "Emilys Candy", serif;
+        }
+        label { display: block; margin-bottom: 5px; font-size: 13px; color: #000; }
         select, input {
             width: 100%;
-            padding: 10px;
+            padding: 9px;
             border-radius: 8px;
             border: 1px solid #333;
             background: #567ca9;
             color: white;
             font-size: 14px;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
         }
-        button {
+        button[type="submit"] {
             width: 100%;
-            padding: 12px;
+            padding: 14px;
             background: #f14ba9;
             color: white;
             border: none;
@@ -58,65 +90,397 @@
             font-size: 16px;
             font-weight: bold;
             cursor: pointer;
+            margin-top: 4px;
         }
-        button:hover { background: #ff1a00; }
-        .result {
-            background: #16213e;
+        button[type="submit"]:hover { background: #ff1a00; }
+
+        /* Results */
+        .single-result {
+            background: #def5ff;
             border-radius: 12px;
-            padding: 30px;
-            width: 100%;
-            max-width: 500px;
+            padding: 24px;
             text-align: center;
-            border: 2px solid #e10600;
+            border: 2px solid #f14ba9;
+            margin-top: 20px;
         }
-        .result h2 { color: #aaa; font-size: 16px; margin-bottom: 10px; }
         .position {
             font-size: 75px;
-            color: #aef483;
+            color: #62ff00;
             line-height: 1;
-            font-family: 'Bitcount Grid Double';
+            font-family: 'Bitcount Grid Double', monospace;
+            margin: 8px 0;
         }
-        .position-label { font-size: 18px; color: #aaa; margin-top: 8px; }
-        .error { color: #ff6b6b; text-align: center; margin-top: 10px; }
+        .position-label { font-size: 14px; color: #5a003a; margin-bottom: 20px; }
+        .driver-name { font-size: 20px; font-weight: bold; color: #5a003a; margin-bottom: 4px; }
+        .grid-info { font-size: 13px; color: #5a003a; margin-bottom: 16px; }
+
+        /* Prob bars */
+        .prob-title { font-size: 13px; color: #5a003a; margin-bottom: 10px; text-align: left; }
+        .prob-row { margin-bottom: 10px; }
+        .prob-label { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 4px; color: #5a003a; }
+        .prob-bar-bg { background: #567ca9; border-radius: 6px; height: 10px; width: 100%; }
+        .prob-bar-fill { background: #f14ba9; border-radius: 6px; height: 10px; }
+
+        /* H2H */
+        .versus-grid { display: flex; gap: 20px; width: 100%; }
+        .vs-label {
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px; font-weight: bold; color: white;
+            padding-top: 50px; font-family: "Emilys Candy", serif;
+        }
+        .results-grid { display: flex; gap: 20px; width: 100%; margin-top: 20px; }
+        .result-card { flex: 1; background: #def5ff; border-radius: 12px; padding: 24px; text-align: center; }
+        .result-card.winner { border: 2px solid #f14ba9; }
+        .winner-badge {
+            display: inline-block; background: #f14ba9; color: white;
+            font-size: 11px; padding: 3px 10px; border-radius: 20px;
+            margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px;
+        }
+
+        /* Circuit filter */
+        .circuit-section {
+            background: #ff98d4;
+            border-radius: 12px;
+            padding: 16px 24px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .circuit-section label { margin: 0; color: #5a003a; font-weight: bold; white-space: nowrap; }
+        .circuit-section select { margin: 0; }
+
+        /* Circuit leaders */
+        .circuit-leaders {
+            background: #ff98d4;
+            border-radius: 12px;
+            padding: 16px 24px;
+            margin-top: 16px;
+        }
+        .circuit-leaders h4 { color: #5a003a; margin-bottom: 12px; font-family: "Emilys Candy", serif; font-size: 16px; }
+        .leader-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(90,0,58,0.2);
+            font-size: 14px;
+            color: #5a003a;
+        }
+        .leader-row:last-child { border-bottom: none; }
+        .leader-pos { font-weight: bold; color: #f14ba9; width: 30px; }
+
+        /* Season stats */
+        .stats-grid { display: flex; gap: 20px; width: 100%; }
+        .stats-card { flex: 1; background: #def5ff; border-radius: 12px; padding: 24px; border: 2px solid #f14ba9;}
+        .stats-card h3 { color: #5a003a; font-family: "Emilys Candy", serif; font-size: 18px; margin-bottom: 16px; }
+        #graph{ background: #def5ff; border: 2px solid #f14ba9; }
+        .leaderboard-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(90,0,58,0.15);
+            font-size: 14px;
+            color: #5a003a;
+        }
+        .leaderboard-row:last-child { border-bottom: none; }
+        .lb-rank { font-weight: bold; color: #f14ba9; width: 30px; }
+        .lb-avg { color: #567ca9; font-weight: bold; }
+        .top1 { background: rgba(255,215,0,0.2); border-radius: 8px; padding: 8px; }
+        .top2 { background: rgba(192,192,192,0.2); border-radius: 8px; padding: 8px; }
+        .top3 { background: rgba(205,127,50,0.2); border-radius: 8px; padding: 8px; }
+
+        .error { color: #ff6b6b; text-align: center; margin-bottom: 16px; }
     </style>
 </head>
 <body>
-    <h1>🏎️ F1 Race Predictor</h1>
-    <p class="subtitle">Predict a driver's finishing position based on grid position</p>
 
-    <div class="card">
-        <form method="POST">
+<h1>F1 Race Predictor</h1>
+<p class="subtitle">Powered by 5 seasons of real F1 data</p>
+
+<div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('single', this)">Single Prediction</button>
+    <button class="tab-btn" onclick="switchTab('h2h', this)">Head to Head</button>
+    <button class="tab-btn" onclick="switchTab('stats', this)">Season Stats</button>
+</div>
+
+<!-- ── SINGLE PREDICTION TAB ── -->
+<div id="tab-single" class="tab-content active">
+    <form method="POST">
+        <input type="hidden" name="mode" value="single">
+
+        <!-- Circuit selector -->
+        <div class="circuit-section">
+            <label>🏁Circuit</label>
+            <select name="circuit" id="circuit-single" onchange="updateCircuitLeaders('single')">
+                {% for c in circuits %}
+                <option value="{{ c }}" {% if form.get('circuit') == c %}selected{% endif %}>{{ c }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="card">
+            <h3>Predict Finishing Position</h3>
             <label>Driver</label>
-            <select name="driver">
+            <select name="driver1" id="driver1-single" onchange="autoFillTeam('driver1-single', 'team1-single')">
                 {% for d in drivers %}
-                <option value="{{ d }}" {% if d == selected_driver %}selected{% endif %}>{{ d }}</option>
+                <option value="{{ d }}" {% if form.get('driver1') == d %}selected{% endif %}>{{ d }}</option>
                 {% endfor %}
             </select>
-
             <label>Team</label>
-            <select name="team">
+            <select name="team1" id="team1-single">
                 {% for t in teams %}
-                <option value="{{ t }}" {% if t == selected_team %}selected{% endif %}>{{ t }}</option>
+                <option value="{{ t }}" {% if form.get('team1') == t %}selected{% endif %}>{{ t }}</option>
                 {% endfor %}
             </select>
-
             <label>Grid Position (1–20)</label>
-            <input type="number" name="grid" min="1" max="20"
-                   value="{{ selected_grid or 1 }}">
+            <input type="number" name="grid1" min="1" max="20" value="{{ form.get('grid1', 1) }}">
+            <button type="submit">Predict</button>
+        </div>
+    </form>
 
-            <button type="submit">Predict Finishing Position</button>
-        </form>
-        {% if error %}
-        <p class="error">{{ error }}</p>
-        {% endif %}
+    <!-- Circuit historical leaders -->
+    <div class="circuit-leaders" id="leaders-single">
+        <h4>🏆Historically strong drivers at this circuit</h4>
+        {% for circuit, leaders in circuit_leaders.items() %}
+        <div class="circuit-data" data-circuit="{{ circuit }}" style="display:none;">
+            {% for i, row in enumerate(leaders) %}
+            <div class="leader-row">
+                <span class="leader-pos">{{ i+1 }}</span>
+                <span>{{ row.Driver }}</span>
+                <span>Avg P{{ "%.1f"|format(row.AvgPosition) }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
     </div>
 
-    {% if prediction %}
-    <div class="result">
-        <h2>Predicted Finishing Position</h2>
-        <div class="position">P{{ prediction }}</div>
-        <div class="position-label">{{ selected_driver }} starting from P{{ selected_grid }}</div>
+    {% if mode == 'single' and result1 %}
+    <div class="single-result">
+        <div class="driver-name">{{ result1.driver }}</div>
+        <div class="position">P{{ result1.predicted }}</div>
+        <div class="position-label">Starting P{{ result1.grid }} at {{ result1.circuit }}</div>
+        <p class="prob-title">Top 3 likely positions:</p>
+        {% for pos, prob in result1.top3 %}
+        <div class="prob-row">
+            <div class="prob-label"><span>P{{ pos }}</span><span>{{ prob }}%</span></div>
+            <div class="prob-bar-bg">
+                <div class="prob-bar-fill" style="width: {{ [prob * 3, 100] | min }}%"></div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
     {% endif %}
+</div>
+
+<!-- ── HEAD TO HEAD TAB ── -->
+<div id="tab-h2h" class="tab-content">
+    <form method="POST">
+        <input type="hidden" name="mode" value="h2h">
+
+        <div class="circuit-section">
+            <label>🏁 Circuit</label>
+            <select name="circuit" id="circuit-h2h">
+                {% for c in circuits %}
+                <option value="{{ c }}" {% if form.get('circuit') == c %}selected{% endif %}>{{ c }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="versus-grid">
+            <div class="card">
+                <h3>Driver 1</h3>
+                <label>Driver</label>
+                <select name="driver1" id="driver1-h2h" onchange="autoFillTeam('driver1-h2h', 'team1-h2h')">
+                    {% for d in drivers %}
+                    <option value="{{ d }}" {% if form.get('driver1') == d %}selected{% endif %}>{{ d }}</option>
+                    {% endfor %}
+                </select>
+                <label>Team</label>
+                <select name="team1" id="team1-h2h">
+                    {% for t in teams %}
+                    <option value="{{ t }}" {% if form.get('team1') == t %}selected{% endif %}>{{ t }}</option>
+                    {% endfor %}
+                </select>
+                <label>Grid Position</label>
+                <input type="number" name="grid1" min="1" max="20" value="{{ form.get('grid1', 1) }}">
+            </div>
+
+            <div class="vs-label">VS</div>
+
+            <div class="card">
+                <h3>Driver 2</h3>
+                <label>Driver</label>
+                <select name="driver2" id="driver2-h2h" onchange="autoFillTeam('driver2-h2h', 'team2-h2h')">
+                    {% for d in drivers %}
+                    <option value="{{ d }}" {% if form.get('driver2') == d %}selected{% endif %}>{{ d }}</option>
+                    {% endfor %}
+                </select>
+                <label>Team</label>
+                <select name="team2" id="team2-h2h">
+                    {% for t in teams %}
+                    <option value="{{ t }}" {% if form.get('team2') == t %}selected{% endif %}>{{ t }}</option>
+                    {% endfor %}
+                </select>
+                <label>Grid Position</label>
+                <input type="number" name="grid2" min="1" max="20" value="{{ form.get('grid2', 2) }}">
+            </div>
+        </div>
+
+        {% if error %}<p class="error">{{ error }}</p>{% endif %}
+        <div style="margin-top: 16px;">
+            <button type="submit">Compare Drivers</button>
+        </div>
+    </form>
+
+    {% if mode == 'h2h' and result1 and result2 %}
+    <div class="results-grid">
+        {% for result in [result1, result2] %}
+        <div class="result-card {% if result.predicted < ([result1.predicted, result2.predicted] | max) %}winner{% endif %}">
+            {% if result.predicted < ([result1.predicted, result2.predicted] | max) %}
+            <div class="winner-badge">🏆 Predicted Winner</div>
+            {% endif %}
+            <div class="driver-name">{{ result.driver }}</div>
+            <div class="grid-info">Starting from P{{ result.grid }}</div>
+            <div class="position">P{{ result.predicted }}</div>
+            <p class="prob-title">Top 3 likely positions:</p>
+            {% for pos, prob in result.top3 %}
+            <div class="prob-row">
+                <div class="prob-label"><span>P{{ pos }}</span><span>{{ prob }}%</span></div>
+                <div class="prob-bar-bg">
+                    <div class="prob-bar-fill" style="width: {{ [prob * 3, 100] | min }}%"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+<!-- ── SEASON STATS TAB ── -->
+<div id="tab-stats" class="tab-content">
+    <div class="stats-grid">
+        <!-- Leaderboard -->
+        <div class="stats-card">
+            <h3>🏆Driver Leaderboard</h3>
+            <p style="font-size:12px; color:#5a003a; margin-bottom:12px;">Ranked by average finishing position (lower = better)</p>
+            {% for i, row in enumerate(stats_data) %}
+            <div class="leaderboard-row {% if i == 0 %}top1{% elif i == 1 %}top2{% elif i == 2 %}top3{% endif %}">
+                <span class="lb-rank">{{ i + 1 }}</span>
+                <span>{{ row.Driver }}</span>
+                <span class="lb-avg">P{{ "%.2f"|format(row.AvgPosition) }}</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Bar chart -->
+        <div class="stats-card" id="graph">
+            <h3>Average Finish Position</h3>
+            <p style="font-size:12px; color:#5a003a; margin-bottom:12px;">Top 10 drivers by historical performance</p>
+            <canvas id="statsChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Tab switcher
+    function switchTab(tab, btn) {
+        document.querySelectorAll(".tab-content").forEach(t => t.classList.remove("active"));
+        document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+        document.getElementById("tab-" + tab).classList.add("active");
+        btn.classList.add("active");
+    }
+
+    const mode = "{{ mode }}";
+    if (mode === "h2h") document.querySelectorAll(".tab-btn")[1].click();
+
+    // Driver-team autofill
+    const driverTeamMap = {
+        "VER": "Red Bull Racing", "HAD": "Red Bull Racing",
+        "HAM": "Ferrari",         "LEC": "Ferrari",
+        "RUS": "Mercedes",        "ANT": "Mercedes",
+        "NOR": "McLaren",         "PIA": "McLaren",
+        "ALO": "Aston Martin",    "STR": "Aston Martin",
+        "GAS": "Alpine",          "DOO": "Alpine",
+        "ALB": "Williams",        "SAI": "Williams",
+        "TSU": "Racing Bulls",    "LAW": "Racing Bulls",
+        "HUL": "Kick Sauber",     "BOR": "Kick Sauber",
+        "MAG": "Haas F1 Team",    "BEA": "Haas F1 Team",
+        "PER": "Red Bull Racing", "BOT": "Alfa Romeo",
+        "ZHO": "Kick Sauber",     "RIC": "RB",
+        "DEV": "AlphaTauri",      "OCO": "Alpine",
+        "SAR": "Williams",        "MSC": "Haas F1 Team",
+        "VET": "Aston Martin",    "GIO": "Alfa Romeo",
+        "RAI": "Alfa Romeo Racing","KUB": "Williams",
+        "LAT": "Williams",        "COL": "Williams",
+        "MAZ": "Haas F1 Team"
+    };
+
+    function autoFillTeam(driverSelectId, teamSelectId) {
+        const driver = document.getElementById(driverSelectId).value;
+        const team   = driverTeamMap[driver];
+        if (team) {
+            const teamSelect = document.getElementById(teamSelectId);
+            for (let opt of teamSelect.options) {
+                if (opt.value === team) { teamSelect.value = team; break; }
+            }
+        }
+    }
+
+    // Circuit leaders display
+    const circuitLeaders = {{ circuit_leaders | tojson }};
+
+    function updateCircuitLeaders(tab) {
+        const circuit = document.getElementById("circuit-" + tab).value;
+        const container = document.getElementById("leaders-" + tab);
+        const leaders = circuitLeaders[circuit] || [];
+
+        const rows = leaders.map((row, i) =>
+            `<div class="leader-row">
+                <span class="leader-pos">${i+1}</span>
+                <span>${row.Driver}</span>
+                <span>Avg P${row.AvgPosition.toFixed(1)}</span>
+            </div>`
+        ).join("");
+
+        container.innerHTML = `<h4>🏆 Historically strong drivers at ${circuit}</h4>${rows}`;
+    }
+
+    // Init circuit leaders on load
+    updateCircuitLeaders('single');
+
+    // Season stats chart — top 10 drivers
+    const statsData = {{ stats_data | tojson }};
+    const top10 = statsData.slice(0, 10);
+
+    const ctx = document.getElementById("statsChart").getContext("2d");
+    new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: top10.map(d => d.Driver),
+            datasets: [{
+                label: "Avg Finishing Position",
+                data: top10.map(d => d.AvgPosition.toFixed(2)),
+                backgroundColor: "#f14ba9",
+                borderRadius: 6
+            }]
+        },
+        options: {
+            indexAxis: "y",
+            plugins: { legend: { display: false } },
+            scales: {
+                x: {
+                    ticks: { color: "#5a003a" },
+                    grid: { color: "rgba(90,0,58,0.1)" },
+                    reverse: false
+                },
+                y: { ticks: { color: "#5a003a" } }
+            }
+        }
+    });
+</script>
+
 </body>
 </html>
