@@ -11,9 +11,9 @@ app = Flask(__name__,
             static_folder="app/static")
 app.jinja_env.globals.update(enumerate=enumerate)
 with open("model/model.pkl", "rb") as f:   model = pickle.load(f)
-with open("../model/le_driver.pkl", "rb") as f:  le_driver = pickle.load(f)
-with open("../model/le_team.pkl", "rb") as f:    le_team = pickle.load(f)
-with open("../model/le_circuit.pkl", "rb") as f: le_circuit = pickle.load(f)
+with open("model/le_driver.pkl", "rb") as f:  le_driver = pickle.load(f)
+with open("model/le_team.pkl", "rb") as f:    le_team = pickle.load(f)
+with open("model/le_circuit.pkl", "rb") as f: le_circuit = pickle.load(f)
 
 DRIVERS  = list(le_driver.classes_)
 TEAMS    = list(le_team.classes_)
@@ -82,6 +82,6 @@ def index():
                            error=error, form=form, mode=mode,
                            stats_data=stats_data,
                            circuit_leaders=circuit_leaders)
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
