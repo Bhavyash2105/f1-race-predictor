@@ -2,3 +2,7 @@
 data/cache/
 __pycache__/
 *.pyc
+*.pkl
+*.sqlite
+model/
+notebooks/data/
