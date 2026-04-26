@@ -3,24 +3,26 @@ import pickle
 import numpy as np
 import pandas as pd
 import subprocess, sys, os
-if not os.path.exists("model/model.pkl"):
-    print("Model not found, training now...")
-    subprocess.run([sys.executable, "train.py"], check=True)
-app = Flask(__name__, 
-            template_folder="app/templates",
-            static_folder="app/static")
+# Add parent directory to path
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if not os.path.exists(os.path.join(BASE_DIR, "model/model.pkl")):
+    subprocess.run([sys.executable, os.path.join(BASE_DIR, "train.py")], check=True)
+app = Flask(__name__,
+            template_folder=os.path.join(BASE_DIR, "app", "templates"),
+            static_folder=os.path.join(BASE_DIR, "app", "static"))
+app.config["PROPAGATE_EXCEPTIONS"] = True
 app.jinja_env.globals.update(enumerate=enumerate)
-with open("model/model.pkl", "rb") as f:   model = pickle.load(f)
-with open("model/le_driver.pkl", "rb") as f:  le_driver = pickle.load(f)
-with open("model/le_team.pkl", "rb") as f:    le_team = pickle.load(f)
-with open("model/le_circuit.pkl", "rb") as f: le_circuit = pickle.load(f)
+with open(os.path.join(BASE_DIR, "model/model.pkl"), "rb") as f:    model = pickle.load(f)
+with open(os.path.join(BASE_DIR, "model/le_driver.pkl"), "rb") as f:  le_driver = pickle.load(f)
+with open(os.path.join(BASE_DIR, "model/le_team.pkl"), "rb") as f:    le_team = pickle.load(f)
+with open(os.path.join(BASE_DIR, "model/le_circuit.pkl"), "rb") as f: le_circuit = pickle.load(f)
 
 DRIVERS  = list(le_driver.classes_)
 TEAMS    = list(le_team.classes_)
 CIRCUITS = list(le_circuit.classes_)
 
-driver_stats  = pd.read_csv("data/driver_stats.csv")
-circuit_stats = pd.read_csv("data/circuit_stats.csv")
+driver_stats  = pd.read_csv(os.path.join(BASE_DIR, "data/driver_stats.csv"))
+circuit_stats = pd.read_csv(os.path.join(BASE_DIR, "data/circuit_stats.csv"))
 
 def predict_driver(driver, team, grid, circuit):
     driver_enc  = le_driver.transform([driver])[0]
